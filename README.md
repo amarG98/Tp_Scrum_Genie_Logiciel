@@ -24,7 +24,7 @@ Pour lancer le programme il suffit de mettre le dossier Papers et le fichier gl.
 Tapez la commande suivante dans le console pour effectuer la conversion :
 
 
-    $ python3 gl.py Papers -text     \\ pdf to text
+    $ python3 gl.py Papers -text     \\ pdf 2 text
 
 
 Les pdf traités se retrouve dans le dossier Papers/result.
