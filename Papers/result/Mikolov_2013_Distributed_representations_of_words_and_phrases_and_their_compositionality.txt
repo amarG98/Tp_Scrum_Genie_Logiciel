@@ -1,0 +1,9 @@
+Nom du fichier d’origine : Mikolov 2013 Distributed representations of words and phrases and their compositionality
+
+
+
+Titre du papier  : Distributed Representations of Words and Phrases
+
+
+
+Abstract de l’auteur : The recently introduced continuous Skip-gram model is an efﬁcient method forlearning high-quality distributed vector representations that capture a large num-ber of precise syntactic and semantic word relationships. In this paper we presentseveral extensions that improve both the quality of the vectors and the trainingspeed. By subsampling of the frequent words we obtain signiﬁcant speedup andalso learn more regular word representations. We also describe a simple alterna-tive to the hierarchical softmax called negative sampling.An inherent limitation of word representations is their indifference to word orderand their inability to represent idiomatic phrases. For example, the meanings of“Canada” and “Air” cannot be easily combined to obtain “Air Canada”. Motivatedby this example, we present a simple method for ﬁnding phrases in text, and showthat learning good vector representations for millions of phrases is possible.

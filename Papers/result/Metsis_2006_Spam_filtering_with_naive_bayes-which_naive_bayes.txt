@@ -1,0 +1,9 @@
+Nom du fichier d’origine : Metsis 2006 Spam filtering with naive bayes-which naive bayes
+
+
+
+Titre du papier  : Spam Filtering with Naive Bayes – Which Naive Bayes? ∗
+
+
+
+Abstract de l’auteur : Naive Bayes is very popular in commercial and open-sourceanti-spam e-mail ﬁlters. There are, however, several formsof Naive Bayes, something the anti-spam literature does notalways acknowledge. We discuss ﬁve diﬀerent versions ofNaive Bayes, and compare them on six new, non-encodeddatasets, that contain ham messages of particular Enronusers and fresh spam messages. The new datasets, whichwe make publicly available, are more realistic than previouscomparable benchmarks, because they maintain the tempo-ral order of the messages in the two categories, and theyemulate the varying proportion of spam and ham messagesthat users receive over time. We adopt an experimentalprocedure that emulates the incremental training of person-alized spam ﬁlters, and we plot roc curves that allow us tocompare the diﬀerent versions of nb over the entire tradeoﬀbetween true positives and true negatives.
