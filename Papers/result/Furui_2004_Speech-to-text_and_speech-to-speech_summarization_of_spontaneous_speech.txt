@@ -1,0 +1,9 @@
+Nom du fichier d’origine : Furui 2004 Speech-to-text and speech-to-speech summarization of spontaneous speech
+
+
+
+Titre du papier  : IEEE TRANSACTIONS ON SPEECH AND AUDIO PROCESSING, VOL. 12, NO. 4, JULY 2004
+
+
+
+Abstract de l’auteur : —This paper presents techniques for speech-to-textand speech-to-speech automatic summarization based on speechunit extraction and concatenation. For the former case, atwo-stage summarization method consisting of important sentenceextraction and word-based sentence compaction is investigated.Sentence and word units which maximize the weighted sum oflinguistic likelihood, amount of information, confidence measure,and grammatical likelihood of concatenated units are extractedfrom the speech recognition results and concatenated for pro-ducing summaries. For the latter case, sentences, words, andbetween-filler units are investigated as units to be extracted fromoriginal speech. These methods are applied to the summarizationof unrestricted-domain spontaneous presentations and evaluatedby objective and subjective measures. It was confirmed that pro-posed methods are effective in spontaneous speech summarization.

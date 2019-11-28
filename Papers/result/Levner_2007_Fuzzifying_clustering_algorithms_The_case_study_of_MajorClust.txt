@@ -1,0 +1,9 @@
+Nom du fichier d’origine : Levner 2007 Fuzzifying clustering algorithms The case study of MajorClust
+
+
+
+Titre du papier  : Fuzzifying clustering algorithms:
+
+
+
+Abstract de l’auteur : . Among various document clustering algorithms that havebeen proposed so far, the most useful are those that automatically re-veal the number of clusters and assign each target document to exactlyone cluster. However, in many real situations, there not exists an exactboundary between diﬀerent clusters. In this work, we introduce a fuzzyversion of the MajorClust algorithm. The proposed clustering methodassigns documents to more than one category by taking into accounta membership function for both, edges and nodes of the correspondingunderlying graph. Thus, the clustering problem is formulated in termsof weighted fuzzy graphs. The fuzzy approach permits to decrease somenegative eﬀects which appear in clustering of large-sized corpora withnoisy data.

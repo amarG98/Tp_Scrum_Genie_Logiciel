@@ -1,0 +1,9 @@
+Nom du fichier d’origine : Vanderwende 2007 Beyond SumBasic
+
+
+
+Titre du papier  : Information Processing and Management 43 (2007) 1606–1618
+
+
+
+Abstract de l’auteur : In recent years, there has been increased interest in topic-focused multi-document summarization. In this task, auto-matic summaries are produced in response to a speciﬁc information request, or topic, stated by the user. The systemwe have designed to accomplish this task comprises four main components: a generic extractive summarization system,a topic-focusing component, sentence simpliﬁcation, and lexical expansion of topic words. This paper details each of thesecomponents, together with experiments designed to quantify their individual contributions. We include an analysis of ourresults on two large datasets commonly used to evaluate task-focused summarization, the DUC2005 and DUC2006 data-sets, using automatic metrics. Additionally, we include an analysis of our results on the DUC2006 task according to humanevaluation metrics. In the human evaluation of system summaries compared to human summaries, i.e., the Pyramidmethod, our system ranked ﬁrst out of 22 systems in terms of overall mean Pyramid score; and in the human evaluationof summary responsiveness to the topic, our system ranked third out of 35 systems.Ó 2007 Elsevier Ltd. All rights reserved.
