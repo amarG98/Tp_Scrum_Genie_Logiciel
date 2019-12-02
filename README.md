@@ -17,7 +17,7 @@ Python (3).
 
 6-Explication générale du système et la procédure nécessaire pour lancer les programmes:
 
-SPRINT 2 : 
+SPRINT 2 :
 
 Pour lancer le programme il suffit de mettre le dossier Papers et le fichier gl.py dans un même dossier,puis d'ouvrir le terminal à partir de ce dossier et de lancer le programme avec Papers le dossier qui contient les PDF en argument .
 
@@ -33,4 +33,26 @@ Dans chaque pdf traité on a identifié 3 choses :
   -Le nom du fichier d’origine (dans une ligne)
   -Le titre du papier (dans une ligne)
   -Le résumé ou abstract de l’auteur (dans une ligne)
- 
+
+  SPRINT 3:
+
+  Pour lancer le programme il suffit de mettre le dossier Papers et le fichier gl.py dans un même dossier,puis d'ouvrir le terminal à partir de ce dossier et de lancer le programme avec Papers le dossier qui contient les PDF en argument .
+
+  Prerequisites :
+  lxml
+
+  Installing :
+
+Pour installer lxml sous LINUX dans une fenetre de commande tapez :
+
+$ sudo apt-get install python3-lxml
+
+Tapez la commande suivante dans le console pour effectuer la conversion :
+
+
+
+$ python3 gl.py Papers -t     \\ pdf vers text
+
+$ python3 gl.py Papers -x     \\ pdf vers xml
+
+Les pdf traités se retrouve dans le dossier Papers/result.

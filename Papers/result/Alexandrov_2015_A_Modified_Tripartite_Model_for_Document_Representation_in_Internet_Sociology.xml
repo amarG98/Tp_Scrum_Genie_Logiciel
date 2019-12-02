@@ -1,0 +1,30 @@
+<article><preamble>Alexandrov 2015 A Modified Tripartite Model for Document Representation in Internet Sociology</preamble><titre>A Modi&#64257;ed Tripartite Model for Document</titre><auteur>
+Representation in Internet Sociology
+
+Mikhail Alexandrov1,2, Vera Danilova1,2(B), and Xavier Blanco1
+
+1 Autonomous University of Barcelona, Barcelona, Spain
+
+{MAlexandrov.UAB,XblancoE}@gmail.com
+
+2 Russian Presidential Academy of National Economy and Public Administration,
+
+Moscow, Russian Federation
+
+vera.danilova@e-campus.uab.cat
+
+</auteur><abstract>. Seven years ago Peter Mika (Yahoo! Research) proposed atripartite model of actors, concepts and instances for document repre-sentation in the study of social networks. We propose a modi&#64257;ed model,where instead of document authors we consider textual mentions of per-sons and institutions as actors. This representation proves to be moreappropriate for the solution of a range of Internet Sociology tasks. In thepaper we describe experiments with the modi&#64257;ed model and provide somebackground on the tools that can be used to build it. The model is testedon the experimental corpora of Russian news (educational domain). Theresearch re&#64258;ects the pilot study &#64257;ndings.</abstract><biblio> 1. Alexandrov, M.: Development of general methodology for analysis of public opinion of Internet-community and its application to given topics (authority, economy, corruption, etc.) on the basis of Data/Text Mining tools. Report on State project 84, RPANEPA [rus] (2013)
+  2. Alexandrov, M., Beresneva, D., Makarov, A.: Dynamic vocabularies as a tool for studying social processes. In: Proceedings of the 6th International Conference on Intelligent Information and Engineering Systems, ITHEA Publishing, vol. 27, pp. 88&#8211;92 (2014)
+  3. Alexandrov, M., Danilova, V., Koshulko, A., Tejada, J.: Models for opinion classi- &#64257;cation of blogs taken from Peruvian Facebook. In: Proceedings of the 4th Interna- tional Conference on Inductive Modeling (ICIM-2013), Kyiv, Ukraine Publishing House ITRC-NASU (Ukraine) &amp; Czech Technical University pp. 241&#8211;246 (2013)
+  4. Alexandrov, M., Gelbukh, A., Rosso, P.: An approach to clustering abstracts. In: Montoyo, A., Mu&#732;noz, R., M&#180;etais, E. (eds.) NLDB 2005. LNCS, vol. 3513, pp. 275&#8211;285. Springer, Heidelberg (2005)
+  5. Alexandrov, M., Gelbukh, A., Makagonov, P.: Evaluation of thematic structure of multidisciplinary documents and document &#64258;ows. In: Proceedings of the 11th International DEXA Workshop (Database and Expert System Applications), pp. 125&#8211;129 (2000)
+  6. Baeza-Yates, R., Ribero-Neto, B.: Modern Information Retrieval. Addison Wesley,  Boston (1999)
+  7. Bishop, C.: Pattern Recognition and Machine Learning. Springer, Berkeley (2006)
+ 8. Danilova, V., Alexandrov, M., Blanco, X.: A survey of multilingual event extraction from text. In: M&#180;etais, E., Roche, M., Teisseire, M. (eds.) NLDB 2014. LNCS, vol. 8455, pp. 85&#8211;88. Springer, Heidelberg (2014)
+  9. Danilova V., Popova S.: Socio-political event extraction using a rule-based app- roach. In: Meersman, R., Panetto, H., Mishra, A., Valencia-Garcia, R., Soares, A.L., Ciuciu, I., Ferri, F., Weichhart, G., Moser, T., Bezzi, M., Chan, H. (eds.) Proceedings of the 13th International Conference on Ontologies, DataBases and Applications of Semantics (ODBASE&#8217;2014), vol 8842, pp. 537&#8211;546, Springer (2014)
+  10. Gelbukh, A., Sidorov, G., Guzman-Arenas, A.: Use of a weighted topic hierarchy for document classi&#64257;cation. In: Matou&#711;sek, V., et al. (eds.) TSD 1999. LNCS (LNAI), vol. 1692, pp. 133&#8211;138. Springer, Heidelberg (1999)
+  11. Manning, C., Raghavan, P., Schutze, H.: Introduction to Information Retrieval.  Cambridge University Press, Cambridge (2008)
+  12. Eissen, S.M., Stein, B.: Analysis of clustering algorithms for web-based search. In: Karagiannis, D., Reimer, U. (eds.) PAKM 2002. LNCS (LNAI), vol. 2569, pp. 168&#8211;178. Springer, Heidelberg (2002)
+  13. Mika, P.: Ontologies are us: a uni&#64257;ed model of social networks and semantics. J.  Web Semant. Sci. Serv. Agents World Wide Web 5(1), 5&#8211;15 (2007)
+  14. Stein, B., Niggemann, O.: On the nature of structure and its identi&#64257;cation. In: Widmayer, P., Neyer, G., Eidenbenz, S. (eds.) WG 1999. LNCS, vol. 1665, p. 122. Springer, Heidelberg (1999)
+  </biblio></article>

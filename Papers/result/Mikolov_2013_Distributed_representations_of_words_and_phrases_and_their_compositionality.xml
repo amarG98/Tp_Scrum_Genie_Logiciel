@@ -1,0 +1,55 @@
+<article><preamble>Mikolov 2013 Distributed representations of words and phrases and their compositionality</preamble><titre>Distributed Representations of Words and Phrases</titre><auteur>
+and their Compositionality
+
+Tomas Mikolov
+Google Inc.
+Mountain View
+
+mikolov@google.com
+
+Ilya Sutskever
+Google Inc.
+Mountain View
+
+ilyasu@google.com
+
+Kai Chen
+Google Inc.
+Mountain View
+
+kai@google.com
+
+Greg Corrado
+Google Inc.
+Mountain View
+
+gcorrado@google.com
+
+Jeffrey Dean
+Google Inc.
+Mountain View
+
+jeff@google.com
+
+</auteur><abstract>The recently introduced continuous Skip-gram model is an ef&#64257;cient method forlearning high-quality distributed vector representations that capture a large num-ber of precise syntactic and semantic word relationships. In this paper we presentseveral extensions that improve both the quality of the vectors and the trainingspeed. By subsampling of the frequent words we obtain signi&#64257;cant speedup andalso learn more regular word representations. We also describe a simple alterna-tive to the hierarchical softmax called negative sampling.An inherent limitation of word representations is their indifference to word orderand their inability to represent idiomatic phrases. For example, the meanings of&#8220;Canada&#8221; and &#8220;Air&#8221; cannot be easily combined to obtain &#8220;Air Canada&#8221;. Motivatedby this example, we present a simple method for &#64257;nding phrases in text, and showthat learning good vector representations for millions of phrases is possible.</abstract><biblio>[1] Yoshua Bengio, R&#180;ejean Ducharme, Pascal Vincent, and Christian Janvin. A neural probabilistic language  model. The Journal of Machine Learning Research, 3:1137&#8211;1155, 2003  
+   [2] Ronan Collobert and Jason Weston. A uni&#64257;ed architecture for natural language processing: deep neu- ral networks with multitask learning. In Proceedings of the 25th international conference on Machine learning, pages 160&#8211;167. ACM, 2008  
+   [3] Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Domain adaptation for large-scale sentiment classi-  &#64257;cation: A deep learning approach. In ICML, 513&#8211;520, 2011  
+   [4] Michael U Gutmann and Aapo Hyv&#168;arinen. Noise-contrastive estimation of unnormalized statistical mod- els, with applications to natural image statistics. The Journal of Machine Learning Research, 13:307&#8211;361, 2012  
+   [5] Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Extensions of recurrent neural network language model. In Acoustics, Speech and Signal Processing (ICASSP), 2011 IEEE International Conference on, pages 5528&#8211;5531. IEEE, 2011  
+   [6] Tomas Mikolov, Anoop Deoras, Daniel Povey, Lukas Burget and Jan Cernocky. Strategies for Training Large Scale Neural Network Language Models. In Proc. Automatic Speech Recognition and Understand- ing, 2011  
+   [7] Tomas Mikolov. Statistical Language Models Based on Neural Networks. PhD thesis, PhD Thesis, Brno  [8] Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Ef&#64257;cient estimation of word representations  University of Technology, 2012  
+   in vector space. ICLR Workshop, 2013  
+   [9] Tomas Mikolov, Wen-tau Yih and Geoffrey Zweig. Linguistic Regularities in Continuous Space Word  Representations. In Proceedings of NAACL HLT, 2013  
+   [10] Andriy Mnih and Geoffrey E Hinton. A scalable hierarchical distributed language model. Advances in  neural information processing systems, 21:1081&#8211;1088, 2009  
+   [11] Andriy Mnih and Yee Whye Teh. A fast and simple algorithm for training neural probabilistic language  models. arXiv preprint arXiv:1206.6426, 2012  
+   [12] Frederic Morin and Yoshua Bengio. Hierarchical probabilistic neural network language model. In Pro-  ceedings of the international workshop on arti&#64257;cial intelligence and statistics, pages 246&#8211;252, 2005  
+   [13] David E Rumelhart, Geoffrey E Hintont, and Ronald J Williams. Learning representations by back-  propagating errors. Nature, 323(6088):533&#8211;536, 1986  
+   [14] Holger Schwenk. Continuous space language models. Computer Speech and Language, vol. 21, 2007  
+  [15] Richard Socher, Cliff C. Lin, Andrew Y. Ng, and Christopher D. Manning. Parsing natural scenes and natural language with recursive neural networks. In Proceedings of the 26th International Conference on Machine Learning (ICML), volume 2, 2011  
+   [16] Richard Socher, Brody Huval, Christopher D. Manning, and Andrew Y. Ng. Semantic Compositionality Through Recursive Matrix-Vector Spaces. In Proceedings of the 2012 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2012  
+   [17] Joseph Turian, Lev Ratinov, and Yoshua Bengio. Word representations: a simple and general method for semi-supervised learning. In Proceedings of the 48th Annual Meeting of the Association for Computa- tional Linguistics, pages 384&#8211;394. Association for Computational Linguistics, 2010  
+   [18] Peter D. Turney and Patrick Pantel. From frequency to meaning: Vector space models of semantics. In  Journal of Arti&#64257;cial Intelligence Research, 37:141-188, 2010  
+   [19] Peter D. Turney. Distributional semantics beyond words: Supervised learning of analogy and paraphrase  
+   In Transactions of the Association for Computational Linguistics (TACL), 353&#8211;366, 2013  
+   [20] Jason Weston, Samy Bengio, and Nicolas Usunier. Wsabie: Scaling up to large vocabulary image annota- tion. In Proceedings of the Twenty-Second international joint conference on Arti&#64257;cial Intelligence-Volume Volume Three, pages 2764&#8211;2770. AAAI Press, 2011  
+   9  </biblio></article>

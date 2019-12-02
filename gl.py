@@ -1,9 +1,9 @@
-
-import sys
-import os
-import os.path
-import shutil
-
+import sys      #argument
+import os       #commande de base
+import os.path  #le path du program
+import shutil   #pour suprimmer récursivement
+import xml.etree.ElementTree as xmlElement #XML
+from lxml import etree #XML
 
 def Resume(Content):
     if "ABSTRACT" in Content :                                      # identifier le début du résumé
@@ -27,11 +27,11 @@ def Resume(Content):
         a2 = a1[0].split("\n")
         a = ''.join(a2)
         return a
-
+ # identifier l'auteur
 def Auteur(Content,titre):
 	titre2 = titre.split("Abstract",1)
 	return titre2[0]
-
+ # identifier les titres
 def Titre(Content):
     title = Content.split("\n",1)
     titre = title[0]
@@ -41,7 +41,45 @@ def Titre2(Content):
 	title = Content.split("\n",1)
 	titre = title[1]
 	return titre
+     # identifier la bib
 
+def Bibliographie(normalContent):
+    lowerContent = normalContent.lower()
+    if " references" in lowerContent:
+        indexFound = lowerContent.find("\nreferences\n")
+    else:
+        indexFound = lowerContent.find("references\n")
+    if indexFound == -1 :
+        return "bibliography not found"
+    indexFound += len("references\n")
+    normalContent = normalContent[indexFound:]
+    indexFound = normalContent.find("\n\n");
+    if indexFound == -1 :
+        return "bibliography not found"
+
+    if "[1]" in normalContent:
+        contentOnLine = normalContent.replace(".\n","  ;  ").replace("\n"," ")
+        contentOnLine = contentOnLine.replace(";", "\n")
+        return contentOnLine
+    elif "(2013)" in normalContent:
+        normalContent = normalContent.replace("\n"," ")
+        for i in range(1900,2020):
+            if str(i) in normalContent:
+                a = "("+str(i)+")"
+                b = "("+str(i)+")\n"
+
+                normalContent = normalContent.replace(a, b)
+        return normalContent
+    else:
+        normalContent = normalContent.replace("\n"," ")
+        for i in range(1900,2020):
+            if str(i) in normalContent:
+                a = str(i)+"."
+                b = str(i)+".\n"
+
+
+                normalContent = normalContent.replace(a, b)
+        return normalContent
 
 
 
@@ -80,6 +118,7 @@ def filtre(src,dst,element):
         for i in range(0,len(a2)) :  # ecriture du résumé dans le fichier de destination sur une seule ligne (troisieme ligne)
             dst.write(a2[i])
 
+ # transfert vers le result
 
 def transfertToResult(arg):
     tmp = "{}/result".format(arg)
@@ -125,14 +164,48 @@ def pdf(directoryPath):
             os.system(pdfToTextCommand)
 
 
+def createXmlFile(src,dst,title,rwt):
 
+    filename = dst+rwt+".xml"
+    titre = title.replace('.txt','').replace('_',' ')
+    txt = src.read()
+    root = xmlElement.Element("article")
+    element0 = xmlElement.SubElement(root,"preamble").text = titre
+
+    element1 = xmlElement.SubElement(root,"titre").text = Titre(txt)
+
+    element2 = xmlElement.SubElement(root,"auteur").text = Auteur(txt, Titre2(txt))
+
+    element3 = xmlElement.SubElement(root,"abstract").text = Resume(txt)
+
+    element4 = xmlElement.SubElement(root,"biblio").text = Bibliographie(txt)
+
+
+
+    tree= xmlElement.ElementTree(root)
+    tree.write(filename)
+
+def createFichierXml(arg) :
+    tmp = "{}/result".format(arg)
+    if os.path.exists(tmp):
+        shutil.rmtree(tmp)
+    os.mkdir(tmp)
+    t = "{}/tmp".format(arg)
+    for element in os.listdir(t):
+        if element.endswith('.txt'):
+            rwt = os.path.splitext(os.path.basename(element))[0]
+            a = "{0}/result/".format(arg)
+            s = "{0}/tmp/".format(arg)
+            source = open(s+element,"r")
+            createXmlFile(source,a,element,rwt)
+            source.close()
 
 
 print("*       PDF CONVERTER        *")
 # S'assurer que notre programme reçois le bon nombre d'argument
 # le premier argument est le nom de notre script python
 # le deuxième argument est le répértoire content l'ensemble des fichiers pdf à convertir.
-# le troisiéme argument est pour choisir le type de sortie soit txt
+# le troisiéme argument est pour choisir le type de sortie soit txt soit XML
 
 if len(sys.argv) == 3:
  # Récupérer le répértoire courant ( cwd : current working directory )
@@ -149,10 +222,21 @@ if len(sys.argv) == 3:
      print(bcolors.FAIL + "L'argument passé en paramètre n'est pas un dossier." + bcolors.ENDC)
      sys.exit(2)
  # Verifier si le type de sortie est égale a txt
- if sys.argv[2] == '-text':
+ if sys.argv[2] == '-t':
      # Début de la conversion
      print("Conversion pdf to txt")
      print ("Conversion des fichier du répértoire " + directory)
      pdf(directory)
      transfertToResult(directory)
      t = "{}/tmp".format(directory)
+     shutil.rmtree(t)
+
+#si en veux la conversion XML
+if sys.argv[2] == '-x':
+    # Début de la conversion
+    print("Conversion pdf to xml")
+    print ("Conversion des fichier du répértoire " + directory)
+    pdf(directory)
+    createFichierXml(directory)
+    t = "{}/tmp".format(directory)
+    shutil.rmtree(t)

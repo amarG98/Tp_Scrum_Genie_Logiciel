@@ -1,0 +1,47 @@
+<article><preamble>Furui 2004 Speech-to-text and speech-to-speech summarization of spontaneous speech</preamble><titre>IEEE TRANSACTIONS ON SPEECH AND AUDIO PROCESSING, VOL. 12, NO. 4, JULY 2004</titre><auteur>
+401
+
+Speech-to-Text and Speech-to-Speech Summarization
+
+of Spontaneous Speech
+
+Sadaoki Furui, Fellow, IEEE, Tomonori Kikuchi, Yousuke Shinnaka, and Chiori Hori, Member, IEEE
+
+</auteur><abstract>&#8212;This paper presents techniques for speech-to-textand speech-to-speech automatic summarization based on speechunit extraction and concatenation. For the former case, atwo-stage summarization method consisting of important sentenceextraction and word-based sentence compaction is investigated.Sentence and word units which maximize the weighted sum oflinguistic likelihood, amount of information, confidence measure,and grammatical likelihood of concatenated units are extractedfrom the speech recognition results and concatenated for pro-ducing summaries. For the latter case, sentences, words, andbetween-filler units are investigated as units to be extracted fromoriginal speech. These methods are applied to the summarizationof unrestricted-domain spontaneous presentations and evaluatedby objective and subjective measures. It was confirmed that pro-posed methods are effective in spontaneous speech summarization.</abstract><biblio> [1] S. Furui, K. Iwano, C. Hori, T. Shinozaki, Y. Saito, and S. Tamura, &#8220;Ubiquitous speech processing,&#8221; in Proc. ICASSP2001, vol. 1, Salt Lake City, UT, 2001, pp. 13&#8211;16  
+   [2] S. Furui, &#8220;Recent advances in spontaneous speech recognition and un- derstanding,&#8221; in Proc. ISCA-IEEE Workshop on Spontaneous Speech Processing and Recognition, Tokyo, Japan, 2003  
+   [3] I. Mani and M. T. Maybury, Eds., Advances in Automatic Text Summa-  rization. Cambridge, MA: MIT Press, 1999  
+   [4] J. Alexandersson and P. Poller, &#8220;Toward multilingual protocol genera- tion for spontaneous dialogues,&#8221; in Proc. INLG-98, Niagara-on-the-lake, Canada, 1998  
+   [5] K. Zechner and A. Waibel, &#8220;Minimizing word error rate in textual sum-  maries of spoken language,&#8221; in Proc. NAACL, Seattle, WA, 2000  
+   [6] J. S. Garofolo, E. M. Voorhees, C. G. P. Auzanne, and V. M. Stanford, &#8220;Spoken document retrieval: 1998 evaluation and investigation of new metrics,&#8221; in Proc. ESCA Workshop: Accessing Information in Spoken Audio, Cambridge, MA, 1999, pp. 1&#8211;7  
+   [7] R. Valenza, T. Robinson, M. Hickey, and R. Tucker, &#8220;Summarization of spoken audio through information extraction,&#8221; in Proc. ISCA Workshop on Accessing Information in Spoken Audio, Cambridge, MA, 1999, pp  
+  111&#8211;116  
+   [8] K. Koumpis and S. Renals, &#8220;Transcription and summarization of voice-  mail speech,&#8221; in Proc. ICSLP 2000, 2000, pp. 688&#8211;691  
+   [9] K. Maekawa, H. Koiso, S. Furui, and H. Isahara, &#8220;Spontaneous speech corpus of Japanese,&#8221; in Proc. LREC2000, Athens, Greece, 2000, pp  
+  947&#8211;952  
+   [10] T. Kikuchi, S. Furui, and C. Hori, &#8220;Two-stage automatic speech summa- rization by sentence extraction and compaction,&#8221; in Proc. ISCA-IEEE Workshop on Spontaneous Speech Processing and Recognition, Tokyo, Japan, 2003  
+   [11] C. Hori and S. Furui, &#8220;Advances in automatic speech summarization,&#8221;  in Proc. Eurospeech 2001, 2001, pp. 1771&#8211;1774  
+   [12] C. Hori, S. Furui, R. Malkin, H. Yu, and A. Waibel, &#8220;A statistical ap- proach to automatic speech summarization,&#8221; EURASIP J. Appl. Signal Processing, pp. 128&#8211;139, 2003  
+   [13] K. Knight and D. Marcu, &#8220;Summarization beyond sentence extraction: A probabilistic approach to sentence compression,&#8221; Artific. Intell., vol  
+  139, pp. 91&#8211;107, 2002  
+   [14] H. Daume III and D. Marcu, &#8220;A noisy-channel model for document com-  pression,&#8221; in Proc. ACL-2002, Philadelphia, PA, 2002, pp. 449&#8211;456  
+   [15] C.-Y. Lin and E. Hovy, &#8220;From single to multi-document summarization: A prototype system and its evaluation,&#8221; in Proc. ACL-2002, Philadel- phia, PA, 2002, pp. 457&#8211;464  
+   [16] M. Hirohata, Y. Shinnaka, and S. Furui, &#8220;A study on important sentence extraction methods using SVD for automatic speech summarization,&#8221; in Proc. Acoustical Society of Japan Autumn Meeting, Nagoya, Japan, 2003  
+   [17] K. Zechner, &#8220;Spoken language condensation in the 21st Century,&#8221; in  Proc. Eurospeech, Geneva, Switzerland, 2003, pp. 1989&#8211;1992  
+   408  IEEE TRANSACTIONS ON SPEECH AND AUDIO PROCESSING, VOL. 12, NO. 4, JULY 2004  Sadaoki Furui (F&#8217;93) is a Professor at the De- partment of Computer Science, Tokyo Institute of Technology, Tokyo, Japan. He is engaged in a wide range of research on speech analysis, speech recognition, speaker recognition, speech synthesis, and multimodal human-computer interaction and has authored or coauthored over 350 published articles. From 1978 to 1979, he served on staff at the Acoustics Research Department of Bell Labo- ratories, Murray Hill, NJ, as a Visiting Researcher, working on speaker verification. He is the author of Digital Speech Processing, Synthesis, and Recognition (New York: Marcel Dekker, 1989
+ revised, 2000), Digital Speech Processing (Tokai, Japan: Tokai Univ. Press, 1985), Acoustics and Speech Processing (Tokyo, Japan: Kindai-Kagaku-Sha, 1992) in Japanese, and Speech Information Processing (Tokyo, Japan: Morikita, 1998). He edited (with M. M. Sondhi) Advances in Speech Signal Processing (New York: Marcel Dekker, 1992). He has translated into Japanese Fundamentals of Speech Recognition (Tokyo, Japan: NTT Advanced Technology, 1995), authored by L. R. Rabiner and B.-H. Juang, and Vector Quantization and Signal Compression (Tokyo, Japan: Corona-sha, 1998), authored by A. Gersho and R. M. Gray  
+   Dr. Furui is a Fellow of the Acoustical Society of America and the Institute of Electronics, Information and Communication Engineers of Japan (IEICE). He is President of the Acoustical Society of Japan (ASJ), the International Speech Communication Association (ISCA), and the Permanent Council for Interna- tional Conferences on Spoken Language Processing (PC-ICSLP). He is a Board of Governor of the IEEE Signal Processing Society (SPS) and in 1993, he served as an IEEE SPS Distinguished Lecturer. He has served on the IEEE Technical Committee on Speech and MMSP and on numerous IEEE Conference orga- nizing committees. He is Editor-in-Chief of the Transactions of the IEICE. He is also an Editorial Board member of Speech Communication, the Journal of Computer Speech and Language, and the Journal of Digital Signal Processing  
+  He has received numerous awards, including: the Yonezawa Prize and the Paper Awards from the IEICE (1975, 1988, 1993, and 2003)
+ the Sato Paper Award from the ASJ (1985 and 1987)
+ the Senior Award from the IEEE Acoustics, Speech, and Signal Processing Society (1989)
+ the Achievement Award from the Minister of Science and Technology of Japan (1989)
+ the Technical Achieve- ment Award and the Book Award from the IEICE (1990 and 2003)
+ the Mira Paul Memorial Award from the AFECT of India (2001)  
+   Tomonori Kikuchi received the B. E. and M. E  
+  degrees in computer science from Tokyo Institute of Technology, Tokyo, Japan, in 2001 and 2003, respectively  
+   He has been with Japan Patent Office, Tokyo,  Japan, since 2003  
+   Yousuke Shinnaka received the B. E. degree in electrical and electronic engineering from Tokyo Institute of Technology, Tokyo, Japan, in 2003. He is currently pursuing the M.S. degree at Tokyo Institute of Technology  
+   Chiori Hori (M&#8217;02) received the B.E. and M.E  
+  degrees in electrical and information engineering from Yamagata University, Yonezawa, Japan, in 1994 and 1997, respectively, and the Ph.D. degree from the Graduate School of Information Science and Engineering, Tokyo Institute of Technology (TITECH), Tokyo, Japan, in 2002  
+   From April 1997 to March 1999, she was a Research Associate with the Faculty of Literature and Social Sciences, Yamagata University. She is currently a Researcher with NTT Communication Science Laboratories (CS Labs), Nippon Telegraph and Telephone Corporation (NTT), Kyoto, Japan, which she joined in 2002  
+   Dr. Hori is a member of the Acoustical Society of Japan (ASJ), the Institute of Electronics, Information and Communication Engineers of Japan (IEICE), and the Information Processing Society of Japan (IPSJ). She received the Paper Award from the IEICE in 2002 for her work on speech summarization  
+   </biblio></article>

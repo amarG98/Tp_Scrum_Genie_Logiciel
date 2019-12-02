@@ -1,0 +1,24 @@
+<article><preamble>Doyle 2005 Automatic Categorization of Author Gender</preamble><titre>Automatic Categorization of Author Gender</titre><auteur>
+via N-Gram Analysis
+
+Jonathan Doyle
+
+Vlado Ke&#711;selj
+
+Faculty of Computer Science, Dalhousie University,
+
+6050 University Avenue, Halifax, Nova Scotia, Canada
+
+e-mail : {doyle,vlado}@cs.dal.ca
+
+</auteur><abstract>We present a method for automaticcategorization of author gender vian-gram analysis. Using a corpusof British student essays, experi-ments using character-level, word-level, and part-of-speech n-grams areperformed. The peak accuracy for allmethods is roughly equal, reaching amaximum of 8</abstract><biblio> A. Aizawa. 2001.
+ Linguistic techniques to improve the performance of automatic text categoriza- tion. In Proceedings 6th NLP Pac. Rim Symp. NLPRS-01.  Shlomo Argamon, Moshe Koppel, Jonathan Fine, and Anat Rachel Shimoni. 2003.
+ Gender, genre, and writing style in formal written texts. Text, 23(3):321&#8211;346.  W. Cavnar and J. Trenkle. 1994.
+ N-gram-based  text categorization. In Proceedings SDAIR-94.  Shyamala Doraisamy and Stefan Ruger.  2003.
+ Robust polyphonic music retrieval with n- grams. Journal of Intelligent Information Sys- tems, 21(1):53&#8211;70, July.  N. Fakotakis E. Stamatatos and G. Kokkinakis. 2000.
+ Automatic text categorization in terms of genre and author. Computational Linguistics, 26(4):471&#8211;495.  M. Ephratt. 1997.
+ Authorship attribution - the case of lexical innovations. In Proc. ACH-ALLC- 97.  Aidan Finn and Nicholas Kushmerick.  2003.
+ Learning to classify documents according to genre. In IJCAI-03 Workshop on Computational Approaches to Style Analysis and Synthesis.  Stephen M. Harding, W. Bruce Croft, and C. Weir. 1997.
+ Probabilistic retrieval of ocr degraded text using n-grams. Probabilistic Retrieval of OCR Degraded Text Using N-Grams, 1324:345&#8211;359.  M. Mahoui I. Witten, Z. Bray and W. Teahan. 1999.
+ Text mining: A new frontier for lossless compression. In Proceedings of the IEEE Data Compression Conference (DCC).  Vlado Keselj, Fuchun Peng, Nick Cercone, and Calvin Thomas. 2003.
+ N-gram-based author pro&#64257;les for authorship attribution. Proceedings of the Conference Paci&#64257;c Association for Com- putational Linguistics PACLING&#8217;03, August.  </biblio></article>

@@ -1,0 +1,91 @@
+<article><preamble>Gonzalez 2018 Automated Sentence Boundary Detection in Modern StandardArabic Transcripts using Deep Neural Networks</preamble><titre>Available online at www.sciencedirect.com</titre><auteur>Available online at www.sciencedirect.com
+
+Available online at www.sciencedirect.com
+Procedia Computer Science 00 (2018) 000&#8211;000
+Procedia Computer Science 00 (2018) 000&#8211;000
+
+Procedia Computer Science 142 (2018) 339&#8211;346
+
+www.elsevier.com/locate/procedia
+www.elsevier.com/locate/procedia
+
+The 4th International Conference on Arabic Computational Linguistics (ACLing 2018),
+The 4th International Conference on Arabic Computational Linguistics (ACLing 2018),
+
+Procedia Computer Science 00 (2018) 000&#8211;000
+
+November 17-19 2018, Dubai, United Arab Emirates
+November 17-19 2018, Dubai, United Arab Emirates
+
+www.elsevier.com/locate/procedia
+
+Automated Sentence Boundary Detection in Modern Standard
+Automated Sentence Boundary Detection in Modern Standard
+The 4th International Conference on Arabic Computational Linguistics (ACLing 2018),
+
+Arabic Transcripts using Deep Neural Networks
+Arabic Transcripts using Deep Neural Networks
+
+November 17-19 2018, Dubai, United Arab Emirates
+
+Automated Sentence Boundary Detection in Modern Standard
+Carlos-Emiliano Gonz&#180;alez-Gallardoa,&#8727;, Elvys Linhares Pontesa, Fatiha Sadatb,
+Carlos-Emiliano Gonz&#180;alez-Gallardoa,&#8727;, Elvys Linhares Pontesa, Fatiha Sadatb,
+
+Arabic Transcripts using Deep Neural Networks
+aLIA - Universit&#180;e d&#8217;Avignon et des Pays de Vaucluse, 339 chemin des Meinajaries, 84140, Avignon, France
+aLIA - Universit&#180;e d&#8217;Avignon et des Pays de Vaucluse, 339 chemin des Meinajaries, 84140, Avignon, France
+
+Juan-Manuel Torres-Morenoa,b,c
+Juan-Manuel Torres-Morenoa,b,c
+
+Carlos-Emiliano Gonz&#180;alez-Gallardoa,&#8727;, Elvys Linhares Pontesa, Fatiha Sadatb,
+
+bUniversit&#180;e du Qu&#180;ebec a Montr&#180;eal, C.P. 8888, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3P8 Canada
+bUniversit&#180;e du Qu&#180;ebec a Montr&#180;eal, C.P. 8888, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3P8 Canada
+
+cGIGL, &#180;Ecole Polytechnique de Montr&#180;eal, C.P. 6079, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3A7 Canada
+cGIGL, &#180;Ecole Polytechnique de Montr&#180;eal, C.P. 6079, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3A7 Canada
+aLIA - Universit&#180;e d&#8217;Avignon et des Pays de Vaucluse, 339 chemin des Meinajaries, 84140, Avignon, France
+
+Juan-Manuel Torres-Morenoa,b,c
+
+bUniversit&#180;e du Qu&#180;ebec a Montr&#180;eal, C.P. 8888, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3P8 Canada
+
+cGIGL, &#180;Ecole Polytechnique de Montr&#180;eal, C.P. 6079, succ. Centre-ville, Montr&#180;eal (Qu&#180;ebec) H3C 3A7 Canada
+
+</auteur><abstract>AbstractThe increased volumes of Arabic sources of data available on the Web has boosted the development of Natural Language ProcessingThe increased volumes of Arabic sources of data available on the Web has boosted the development of Natural Language Processing(NLP) tools over di&#64256;erent tasks and applications. However, to take advantage from a vast amount of these applications, a prior(NLP) tools over di&#64256;erent tasks and applications. However, to take advantage from a vast amount of these applications, a priorsegmentation task call Sentence Boundary Detection (SBD) is needed. In this paper we focus on SBD over Modern Standard ArabicAbstractsegmentation task call Sentence Boundary Detection (SBD) is needed. In this paper we focus on SBD over Modern Standard Arabic(MSA) by comparing two di&#64256;erent approaches based on Deep Neural Networks (DNN) using out-of-domain and in-domain training(MSA) by comparing two di&#64256;erent approaches based on Deep Neural Networks (DNN) using out-of-domain and in-domain trainingThe increased volumes of Arabic sources of data available on the Web has boosted the development of Natural Language Processingdata with only lexical features (represented as character embedding) while conducting two scenarios based on a Convolutionaldata with only lexical features (represented as character embedding) while conducting two scenarios based on a Convolutional(NLP) tools over di&#64256;erent tasks and applications. However, to take advantage from a vast amount of these applications, a priorNeural Network and a Recurrent Neural Network with attention mechanism architectures. While tuning a big out-of-domain datasetNeural Network and a Recurrent Neural Network with attention mechanism architectures. While tuning a big out-of-domain datasetsegmentation task call Sentence Boundary Detection (SBD) is needed. In this paper we focus on SBD over Modern Standard Arabicwith a smaller in-domain dataset, improves the performance in general. Our evaluations were based on IWSLT 2017 TED talkswith a smaller in-domain dataset, improves the performance in general. Our evaluations were based on IWSLT 2017 TED talks(MSA) by comparing two di&#64256;erent approaches based on Deep Neural Networks (DNN) using out-of-domain and in-domain trainingtranscripts and showed similarities and di&#64256;erences depending of the SBD method. MSA carries certain complications given itstranscripts and showed similarities and di&#64256;erences depending of the SBD method. MSA carries certain complications given itsdata with only lexical features (represented as character embedding) while conducting two scenarios based on a Convolutionalrich and complex morphology. However, using only lexical features for Arabic SBD is an acceptable option when the source audiorich and complex morphology. However, using only lexical features for Arabic SBD is an acceptable option when the source audioNeural Network and a Recurrent Neural Network with attention mechanism architectures. While tuning a big out-of-domain datasetsignal is not available and a certain level of language independence needs to be reached.signal is not available and a certain level of language independence needs to be reached.with a smaller in-domain dataset, improves the performance in general. Our evaluations were based on IWSLT 2017 TED talks</abstract><biblio> Carlos-Emiliano Gonz&#225;lez-Gallardo  et al. / Procedia Computer Science 142 (2018) 339&#8211;346 C.E. Gonz&#180;alez-Gallardo et al. / Procedia Computer Science 00 (2018) 000&#8211;000  [1] Alotaiby, F., Foda, S., Alkharashi, I., 2010. Clitics in arabic language: a statistical study, in: 24th Paci&#64257;c Asia Conference on Language,  Information and Computation  
+   [2] Althobaiti, M., Kruschwitz, U., Poesio, M., 2014. Aranlp: A java-based library for the processing of arabic text, in: LREC  
+  [3] Attia, M., Somers, H., 2008. Handling Arabic morphological and syntactic ambiguity within the LFG framework with a view to machine  translation. volume 279. University of Manchester Manchester  
+   [4] Bahdanau, D., Cho, K., Bengio, Y., 2014. Neural machine translation by jointly learning to align and translate. CoRR abs/1409.0473  
+  [5] Baldridge, J., 2005. The OpenNLP project. http://opennlp.apache.org/  
+  [6] Bojanowski, P., Grave, E., Joulin, A., Mikolov, T., 2016. Enriching word vectors with subword information. preprint arXiv:1607.04606   
+  [7] Diab, M., 2009. Second generation amira tools for arabic processing: Fast and robust tokenization, pos tagging, and base phrase chunking, in:  2nd International Conference on Arabic Language Resources and Tools  
+   [8] El-Masri, M., Altrabsheh, N., Mansour, H., Ramsay, A., 2017. A web-based tool for arabic sentiment analysis. Procedia Computer Science  117, 38&#8211;45  
+   [9] Farghaly, A., Shaalan, K., 2009. Arabic natural language processing: Challenges and solutions. ACM Transactions on Asian Language  Information Processing (TALIP) 8, 14  
+   [10] Ferrucci, D., Lally, A., 2004. UIMA: An Architectural Approach to Unstructured Information Processing in the Corporate Research Environ-  ment. Natural Language Engineering 10, 327&#8211;348. doi:10.1017/S1351324904003523  
+   [11] Gonz&#180;alez-Gallardo, C.E., Torres-Moreno, J.M., 2018. Sentence Boundary Detection for French with Subword-Level Information Vectors and  Convolutional Neural Networks. preprint arXiv:1802.04559   
+   [12] Gotoh, Y., Renals, S., 2000. Sentence boundary detection in broadcast speech transcripts, in: ASR2000-Automatic Speech Recognition:  Challenges for the new Millenium ISCA Tutorial and Research Workshop (ITRW)  
+   [13] Habash, N., Rambow, O., Roth, R., 2009. Mada+ tokan: A toolkit for arabic tokenization, diacritization, morphological disambiguation, pos tagging, stemming and lemmatization, in: 2nd International Conference on Arabic language resources and tools (MEDAR), Cairo, Egypt, p. 62  
+   [14] Habash, N.Y., 2010. Introduction to arabic natural language processing. Synthesis Lectures on Human Language Technologies 3, 1&#8211;187  
+  [15] Hadrich, L.B., Baccour, L., Mourad, G., 2005. Star: un syst`eme de segmentation de textes arabes bas&#180;e sur lanalyse contextuelle des signes de  ponctuations et de certaines particules, in: TALN&#8217;05  
+   [16] Hochreiter, S., Schmidhuber, J., 1997. Long short-term memory. Neural Computation 9, 1735&#8211;1780  
+  [17] Jaafar, Y., Bouzoubaa, K., 2018. A survey and comparative study of arabic nlp architectures, in: Intelligent Natural Language Processing:  Trends and Applications. Springer, pp. 585&#8211;610  
+   [18] Linhares Pontes, E., Huet, S., Torres-Moreno, J.M., Linhares, A.C., 2018. Cross-language text summarization using sentence and multi- sentence compression, in: Silberztein, M., Atigui, F., Kornyshova, E., M&#180;etais, E., Meziane, F. (Eds.), Natural Language Processing and Infor- mation Systems, Springer International Publishing, Cham. pp. 467&#8211;479  
+   [19] Liu, Y., Chawla, N.V., Harper, M.P., Shriberg, E., Stolcke, A., 2006. A study in machine learning from imbalanced data for sentence boundary  detection in speech. Computer Speech &amp; Language 20, 468&#8211;494  
+   [20] Mallek, F., Le, N.T., Sadat, F., 2018. Automatic machine translation for arabic tweets, in: Intelligent Natural Language Processing: Trends and  Applications. Springer, pp. 101&#8211;119  
+   [21] Menacer, M.A., Mella, O., Fohr, D., Jouvet, D., Langlois, D., Smaili, K., 2017. An enhanced automatic speech recognition system for arabic,  in: Third Arabic Natural Language Processing Workshop, pp. 157&#8211;165  
+   [22] Mikolov, T., Chen, K., Corrado, G., Dean, J., 2013. E&#64259;cient estimation of word representations in vector space. preprint arXiv:1301.3781   
+  [23] Pasha, A., Al-Badrashiny, M., Diab, M.T., El Kholy, A., Eskander, R., Habash, N., Pooleery, M., Rambow, O., Roth, R., 2014. Madamira: A  fast, comprehensive tool for morphological analysis and disambiguation of arabic., in: LREC, pp. 1094&#8211;1101  
+   [24] Pennington, J., Socher, R., Manning, C., 2014. Glove: Global vectors for word representation, in: Conference on Empirical Methods in Natural  Language Processing (EMNLP), pp. 1532&#8211;1543  
+   [25] Povey, D., Ghoshal, A., Boulianne, G., Burget, L., Glembek, O., Goel, N., Hannemann, M., Motlicek, P., Qian, Y., Schwarz, P., et al., 2011  
+  The Kaldi speech recognition toolkit, in: IEEE 2011 Workshop on Automatic Speech Recognition and Understanding, IEEE Signal Processing Society  
+   [26] Silberztein, M., 2005. Nooj: a linguistic annotation system for corpus processing, in: HLT/EMNLP on Interactive Demonstrations, Association  for Computational Linguistics. pp. 10&#8211;11  
+   [27] Souteh, Y., Bouzoubaa, K., 2011. Safar platform and its morphological layer, in: Eleventh Conference on Language Engineering ESOLEC,  pp. 14&#8211;15  
+   [28] Tomashenko, N., Vythelingum, K., Rousseau, A., Est`eve, Y., 2016. Lium asr systems for the 2016 multi-genre broadcast arabic challenge, in:  Spoken Language Technology Workshop (SLT), 2016, IEEE. pp. 285&#8211;291  
+   [29] Torres-Moreno, J.M., 2014. Automatic Text Summarization. Wiley and Sons  
+  [30] Tran, N.T., Luong, V.T., Nguyen, N.L.T., Nghiem, M.Q., 2016. E&#64256;ective attention-based neural architectures for sentence compression with bidirectional long short-term memory, in: Seventh Symposium on Information and Communication Technology, ACM, New York, NY, USA  
+  pp. 123&#8211;130. URL: http://doi.acm.org/10.1145/3011077.3011111, doi:10.1145/3011077.3011111  
+   [31] Yu, D., Deng, L., 2016. Automatic Speech Recognition. Springer  
+  [32] Zribi, I., Kammoun, I., Ellouze, M., Belguith, L., Blache, P., 2016. Sentence boundary detection for transcribed tunisian arabic, in: 13th  Conference on Natural Language Processing (KONVENS 2016), pp. 323&#8211;331  
+   </biblio></article>
