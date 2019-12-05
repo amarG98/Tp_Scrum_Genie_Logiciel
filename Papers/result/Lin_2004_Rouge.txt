@@ -2,8 +2,58 @@ Nom du fichier d’origine : Lin 2004 Rouge
 
 
 
-Titre du papier :  A Package for Automatic Evaluation of Summaries 
+Titre du papier :  A Package for Automatic Evaluation of Summaries
+
+Auteur :  A Package for Automatic Evaluation of Summaries
 
 
+Abstract de l’auteur : ROUGE stands for Recall-Oriented Understudy forGisting Evaluation. It includes measures to automatically determine the quality of a summary bycomparing it to other (ideal) summaries created byhumans. The measures count the number of overlapping units such as n-gram, word sequences, andword pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans. This paper introduces four differentROUGE measures: ROUGE-N, ROUGE-L, ROUGE-W,and ROUGE-S included in the ROUGE summarization evaluation package and their evaluatio ns. Threeof them have been used in the Document Understanding Conference (DUC) 2004, a large-scalesummarization evaluation sponsored by NIST.
+Introduction : 
+Traditionally evaluation of summarization involves
+human judgments of different quality metrics, for
+example, coherence, conciseness, grammaticality,
+readability, and content (Mani, 2001). However,
+even simple manual evaluation of summaries on a
+large scale over a few linguistic quality questions
+and content coverage as in the Document Understanding Conference (DUC) (Over and Yen, 2003)
+would require over 3,000 hours of human efforts.
+This is very expensive and difficult to conduct in a
+frequent basis. Therefore, how to evaluate summaries automatically has drawn a lot of attention in the
+summarization research community in recent years.
+For example, Saggion et al. (2002) proposed three
+content-based evaluation methods that measure
+similarity between summaries. These methods are:
+cosine similarity, unit overlap (i.e. unigram or bigram), and longest common subsequence. However,
+they did not show how the results of these automatic
+evaluation methods correlate to human judgments.
+Following the successful applic ation of automatic
+evaluation methods, such as BLEU (Papineni et al.,
+2001), in machine translation evaluation, Lin and
+Hovy (2003) showed that methods similar to BLEU ,
 
-Abstract de l’auteur :  ROUGE  stands  for  Recall-Oriented  Understudy for Gisting  Evaluation.  It  includes  measures  to  auto-matically  determine  the  quality  of  a  summary  by comparing it to other (ideal) summaries created by humans.  The  measures  count  the  number  of  over-lapping  units such as n-gram, word sequences, and word  pairs between  the  computer-generated  sum-mary to be evaluated and the ideal summaries cre-ated by humans. This paper introduces four different ROUGE measures:  ROUGE-N, ROUGE-L, ROUGE-W, and  ROUGE-S  included  in  the  ROUGE  summariza-tion evaluation package and their evaluations. Three of  them  have  been  used  in  the  Document  Under-standing  Conference  (DUC)  2004,  a  large-scale summarization evaluation sponsored by NIST. 
+i.e. n-gram co-occurrence statistics, could be applied
+to evaluate summaries. In this paper, we introduce a
+package, ROUGE, for automatic evaluation of summaries and its evaluations. ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation. It
+includes several automatic evaluation methods that
+measure the similarity between summaries. We describe ROUGE-N in Section 2, ROUGE-L in Section
+3, ROUGE-W in Section 4, and ROUGE-S in Section
+5. Section 6 shows how these measures correlate
+with human judgments using DUC 2001, 2002, and
+2003 data. Section 7 concludes this paper and discusses future directions.
+
+Corps : Traditionally evaluation of summarization involveshuman judgments of different quality metrics, forexample, coherence, conciseness, grammaticality,readability, and content (Mani, 2001). However,even simple manual evaluation of summaries on alarge scale over a few linguistic quality questionsand content coverage as in the Document Understanding Conference (DUC) (Over and Yen, 2003)would require over 3,000 hours of human efforts.This is very expensive and difficult to conduct in afrequent basis. Therefore, how to evaluate summaries automatically has drawn a lot of attention in thesummarization research community in recent years.For example, Saggion et al. (2002) proposed threecontent-based evaluation methods that measuresimilarity between summaries. These methods are:cosine similarity, unit overlap (i.e. unigram or bigram), and longest common subsequence. However,they did not show how the results of these automaticevaluation methods correlate to human judgments.Following the successful applic ation of automaticevaluation methods, such as BLEU (Papineni et al.,2001), in machine translation evaluation, Lin andHovy (2003) showed that methods similar to BLEU ,i.e. n-gram co-occurrence statistics, could be appliedto evaluate summaries. In this paper, we introduce apackage, ROUGE, for automatic evaluation of summaries and its evaluations. ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation. Itincludes several automatic evaluation methods thatmeasure the similarity between summaries. We describe ROUGE-N in Section 2, ROUGE-L in Section3, ROUGE-W in Section 4, and ROUGE-S in Section5. Section 6 shows how these measures correlatewith human judgments using DUC 2001, 2002, and2003 data. Section 7 concludes this paper and discusses future directions.2ROUGE-N: N-gram Co-Occurrence StatisticsFormally, ROUGE-N is an n-gram recall between acandidate summary and a set of reference summaries. ROUGE-N is computed as follows:ROUGE-N=∑∑ CountS ∈{ ReferemceSummaries} gramn ∈ S∑match( gramn )∑ Count (gram )(1)nS ∈{ ReferenceSummaries} gramn ∈ SWhere n stands for the length of the n-gram,gramn , and Countmatch(gramn ) is the maximum number of n-grams co-occurring in a candidate summaryand a set of reference summaries.It is clear that ROUGE-N is a recall-related measure because the denominator of the equation is thetotal sum of the number of n-grams occurring at thereference summary side. A closely related measure,BLEU , used in automatic evaluation of machinetranslation, is a precision-based measure. BLEUmeasures how well a candidate translation matchesa set of reference translations by counting the percentage of n-grams in the candidate translation overlapping wit h the references. Please see Papineni etal. (2001) for details about BLEU .Note that the number of n-grams in the denominator of the ROUGE-N formula increases as we addmore references. This is intuitive and reasonablebecause there might exist multiple good summaries.Every time we add a reference into the pool, we expand the space of alternative summaries. By controlling what types of references we add to thereference pool, we can design evaluations that focuson different aspects of summarization. Also notethat the numerator sums over all reference summaries. This effectively gives more weight to matchingn-grams occurring in multiple references. Thereforea candidate summary that contains words shared bymore references is favored by the ROUGE-N measure. This is again very intuitive and reasonable because we normally prefer a candidate summary thatis more similar to consensus among reference summaries.2.1Multiple 
+Conclusion : sIn this paper, we introduced ROUGE, an automaticevaluation package for summarization, and conducted comprehensive evaluations of the automaticmeasures included in the ROUGE package usingthree years of DUC data. To check the significanceof the results, we estimated confidence intervals ofcorrelations using bootstrap resampling. We foundthat (1) ROUGE-2, ROUGE-L, ROUGE-W, andROUGE-S worked well in single document summarization tasks, (2) ROUGE-1, ROUGE-L, ROUGE-W,ROUGE-SU4, and ROUGE-SU9 performed great inevaluating very short summaries (or headline-likesummaries), (3) correlation of high 90% was hard toachieve for multi-document summarization tasks butROUGE-1, ROUGE-2, ROUGE-S4, ROUGE-S9,ROUGE-SU4, and ROUGE-SU9 worked reasonablywell when stopwords were excluded from matching,(4) exclusion of stopwords usually improved correlation, and (5) correlations to human judgmentswere increased by using multiple references.In summary, we showed that the ROUGE packagecould be used effectively in automatic evaluation ofsummaries. In a separate study (Lin and Och, 2004),ROUGE-L, W, and S were also shown to be veryeffective in automatic evaluation of machinetranslation. The stability and reliability of ROUGE atdifferent sample sizes was reported by the author in(Lin, 2004). However, how to achieve high correlation with human judgments in multi-documentsummarization tasks as ROUGE already did in singledocument summarization tasks is still an open research topic.8
+Discussion : The author would like to thank the anonymous reviewers for their constructive comments, Paul Overat NIST, U.S.A, and ROUGE users around the worldfor testing and providing useful feedback on earlierversions of the ROUGE evaluation package, and theDARPA TIDES project for supporting this research.
+Biblio :  Cormen, T. R., C. E. Leiserson, and R. L. Rivest. 1989.
+ Introduction to Algorithms. The MIT Press. Davison, A. C. and D. V. Hinkley. 1997.
+ Bootstrap Methods and Their Application. Cambridge University Press. Lin, C.-Y. and E. H. Hovy. 2003.
+ Automatic evaluation of summaries using n-gram co-occurrence statistics. In Proceedings of 2003 Language Technology Conference (HLT-NAACL 2003), Edmonton, Canada. Lin, C.-Y. 2004.
+ Looking for a few good metrics: ROUGE and its evaluation. In Proceedings of NTCIR Workshop 2004, Tokyo, Japan. Lin, C.-Y. and F. J. Och. 2004.
+ Automatic evaluation of machine translation quality using longest common subsequence and skip-bigram statistics. In Proceedings of 42nd Annual Meeting of ACL (ACL 2004), Barcelona, Spain. Mani, I. 2001.
+ Automatic Summarization. John Benjamins Publishing Co. Melamed, I. D. 1995.
+ Automatic evaluation and uniform filter cascades for inducing n-best translation lexicons. In Proceedings of the 3 rd Workshop on Very Large Corpora (WVLC3). Boston, U.S.A. Melamed, I. D., R. Green and J. P. Turian (2003). Precision and recall of machine translation. In Proceedings of 2003 Language Technology Conference (HLT-NAACL 2003), Edmonton, Canada. Over, P. and J. Yen. 2003.
+ An introduction to DUC 2003 – Intrinsic evaluation of generic news text summarization systems. AAAAAAAAAA  http://www-nlpir.nist.gov/projects/duc/pubs/ 2003slides/duc2003intro.pdf Papineni, K., S. Roukos, T. Ward, and W.-J. Zhu. 2001.
+ BLEU : A method for automatic evaluation of machine translation. IBM Research Report RC22176 (W0109-022). Saggion H., D. Radev, S. Teufel, and W. Lam. 2002.
+ Meta-evaluation of summaries in a crosslingual environment using content-based metrics. In Proceedings of COLING-2002, Taipei, Taiwan. Radev, D. S. Teufel, H. Saggion, W. Lam, J. Blitzer, A. Gelebi, H. Qi, E. Drabek, and D. Liu. 2002.
+ Evaluation of Text Summarization in a Cross-Lingual Information Retrieval Framework. Technical report, Center for Language and Speech Processing, Johns Hopkins University, Baltimore, MD, USA. Van Rijsbergen, C. J. 1979.
+ Information Retrieval. Butterworths. London.  
